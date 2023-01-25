@@ -4,8 +4,8 @@ provider "aws" {
 
 
 resource "aws_security_group" "allow_tls" {
-  name = "shah-security_group2"
-  description = "Allow TLS inbound traffic2"
+  name = "shah-security_group3"
+  description = "Allow TLS inbound traffic3"
 
   ingress {
     from_port = 443
