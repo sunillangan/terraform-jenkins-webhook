@@ -4,7 +4,7 @@ provider "aws" {
 
 
 resource "aws_security_group" "allow_tls" {
-  name = "shah-security_group"
+  name = "shah-security_group2"
   description = "Allow TLS inbound traffic"
 
   ingress {
